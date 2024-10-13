@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="APIAutomationFramworkATB7x"
-           tests="1"
+           tests="4"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.106">
+           time="19.267">
     <properties></properties>
 
 
 
             <testcase
-                name="testVerifyCreateBookingPost01"
-                time="0.106"
+                name="testCreateBooking"
+                time="15.750"
+                classname="com.testingacademy.teste.integration.TCIntergrationFlow">
+            </testcase>
+            <testcase
+                name="testVerifyBookingId"
+                time="1.226"
+                classname="com.testingacademy.teste.integration.TCIntergrationFlow">
+            </testcase>
+            <testcase
+                name="testDeleteBookingById"
+                time="1.082"
+                classname="com.testingacademy.teste.integration.TCIntergrationFlow">
+            </testcase>
+            <testcase
+                name="testUpdateBookingByID"
+                time="1.209"
                 classname="com.testingacademy.teste.integration.TCIntergrationFlow">
             </testcase>
 </testsuite>

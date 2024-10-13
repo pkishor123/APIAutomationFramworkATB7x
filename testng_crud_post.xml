@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="APIAutomationFramworkATB7x">
         <classes>
-            <class name="com.testingacademy.teste.integration.TCIntergrationFlow">
+            <class name="com.testingacademy.teste.crud.testCreateBookingTCPOSt">
                 <methods>
                     <include name="testVerifyCreateBookingPost01"/>
                 </methods>

@@ -4,9 +4,7 @@
     <test verbose="2" preserve-order="true" name="APIAutomationFramworkATB7x">
         <classes>
             <class name="com.testingacademy.teste.integration.TCIntergrationFlow">
-                <methods>
-                    <include name="testVerifyCreateBookingPost01"/>
-                </methods>
+
             </class>
         </classes>
 
